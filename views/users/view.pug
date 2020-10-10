@@ -1,0 +1,14 @@
+extends ../layouts/common
+
+block content
+    table.table.mt-4
+        tr 
+            th Name
+            th Email
+            th Phone
+            th Password
+        tr
+            td=users.name
+            th=users.email
+            td=users.phone
+            td=users.password

@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Ngọc Minh",
+      "email": "minh@gmail.com",
+      "phone": "0387798989",
+      "password": "iamminh14032001",
+      "id": "iv1VMHUta"
+    },
+    {
+      "name": "Trần Thư",
+      "email": "thutran@gmail.com",
+      "phone": "03455647454",
+      "password": "thutran123",
+      "id": "-dl4IwTuv"
+    },
+    {
+      "name": "Hồng Hạnh",
+      "email": "honghang@gmail.com",
+      "phone": "0234234251",
+      "password": "honghanh123",
+      "id": "Vke96gUL7"
+    },
+    {
+      "name": "Ngọc Minh",
+      "email": "minh@gmail.com",
+      "phone": "0387798989",
+      "password": "123123",
+      "id": "D5STvB62K"
+    }
+  ]
+}

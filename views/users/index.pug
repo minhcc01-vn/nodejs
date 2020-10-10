@@ -1,0 +1,27 @@
+extends ../layouts/common
+
+block content
+    form.mt-4(action = "/users/search", method = "GET")
+        .form-group.float-right
+            .d-flex 
+                input.form-control(name="q", type="text", value= search, placeholder="Tìm tên")
+                button.ml-2.btn.btn-primary(type='submit') Search
+
+    h3.text-dark.mt-4 List of users
+        a.ml-2.btn.btn-primary(href="/users/create") New
+
+    table.table
+        thead
+            tr
+                th Tên
+                th Email
+                th Phone
+                th View
+        tbody
+        each user in users
+            tr
+                td=user.name
+                td=user.email
+                td=user.phone
+                td
+                    a.bg-light.p-2.rounded.text-dark(href="/users/"+user.id) View
